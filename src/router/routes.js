@@ -43,11 +43,20 @@ const frameIn = [
           },
           render: h => h()
         }
+      },
+      {
+        path: '/page-demo',
+        name: 'page-demo',
+        component: () => import('@/pages/page-demo'),
+        meta: {
+          auth: true,
+          title: '新建示例'
+        }
       }
     ]
   },
   demo
-]
+];
 
 /**
  * 在主框架之外显示

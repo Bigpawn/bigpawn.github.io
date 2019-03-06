@@ -25,8 +25,8 @@
             </p>
           </el-popover>
         </div>
-        <d2-badge/>
-        <d2-help-btn/>
+        <!--<d2-badge/>-->
+        <!--<d2-help-btn/>-->
       </template>
     </d2-page-cover>
   </d2-container>
